@@ -53,8 +53,8 @@ Detected lsbdistcodename is <${::lsbdistcodename}>.")
       }
     }
     'Gentoo': {
-      $config_file   = '/etc/monit/monitrc'
-      $config_dir    = '/etc/monit/conf.d'
+      $config_file   = '/etc/monitrc'
+      $config_dir    = '/etc/monit.d'
       $monit_version = '5'
     }
     'RedHat': {
