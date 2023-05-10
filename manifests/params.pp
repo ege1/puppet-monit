@@ -41,7 +41,7 @@ class monit::params {
           $default_file_content = 'startup=1'
           $service_hasstatus    = false
         }
-        'wheezy', 'jessie', 'stretch', 'precise', 'trusty', 'xenial', 'bionic', 'focal': {
+        'wheezy', 'jessie', 'stretch', 'precise', 'trusty', 'xenial', 'bionic', 'focal', 'jummy': {
           $default_file_content = 'START=yes'
           $service_hasstatus    = true
         }
